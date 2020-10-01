@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BottomNav</string>
+    <string name="title_home">Home</string>
+    <string name="title_spring">SPRING</string>
+    <string name="title_summer">SUMMER</string>
+    <string name="title_autumn">AUTUMN</string>
+    <string name="title_winter">WINTER</string>
+
+</resources>

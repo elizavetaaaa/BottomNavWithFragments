@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_winter"
+        android:icon="@drawable/wintericon"
+        android:title="@string/title_winter" />
+
+    <item
+        android:id="@+id/navigation_spring"
+        android:icon="@drawable/springicon"
+        android:title="@string/title_spring" />
+
+    <item
+        android:id="@+id/navigation_summer"
+        android:icon="@drawable/summericon"
+        android:title="@string/title_summer" />
+
+    <item
+        android:id="@+id/navigation_autumn"
+        android:icon="@drawable/ic_baseline_beach_access_24"
+        android:title="@string/title_autumn" />
+
+</menu>

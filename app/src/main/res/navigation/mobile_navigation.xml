@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_winter">
+
+    <fragment
+        android:id="@+id/navigation_winter"
+        android:name="com.example.bottomnav.ui.winter.WinterFragment"
+        android:label="@string/title_winter"
+        tools:layout="@layout/fragment_winter" />
+
+    <fragment
+        android:id="@+id/navigation_spring"
+        android:name="com.example.bottomnav.ui.spring.SpringFragment"
+        android:label="@string/title_spring"
+        tools:layout="@layout/fragment_spring" />
+
+    <fragment
+        android:id="@+id/navigation_summer"
+        android:name="com.example.bottomnav.ui.summer.SummerFragment"
+        android:label="@string/title_summer"
+        tools:layout="@layout/fragment_summer" />
+    <fragment
+        android:id="@+id/navigation_autumn"
+        android:name="com.example.bottomnav.ui.autumn.AutumnFragment"
+        android:label="@string/title_autumn"
+        tools:layout="@layout/fragment_autumn" />
+</navigation>
